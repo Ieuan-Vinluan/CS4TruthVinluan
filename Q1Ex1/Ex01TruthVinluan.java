@@ -1,3 +1,5 @@
+package LabEx1;
+
 public class Ex01TruthVinluan {
 	String name;
 	int wins;
@@ -24,7 +26,7 @@ public class Ex01TruthVinluan {
 		
 		int totalWins = schoolOne.wins + schoolTwo.wins + schoolThree.wins; // (operation: addition)
 		boolean moreWins = schoolOne.wins > schoolTwo.wins; // (operation: comparison)
-		boolean sameCity = (schoolOne.city == schoolTwo.city) && (schoolTwo.city == schoolThree.city); // (operation: comparison)
+		boolean sameCity = (schoolOne.city.equals(schoolTwo.city)) && (schoolTwo.city.equals(schoolThree.city)); // (operation: comparison)
 		
 		System.out.println("Total Wins: " + totalWins + " // (operation: addition)\nAteneo de Manila University has more wins than University of the Philippines: " + moreWins + " // (operation: comparison)\nAll three schools are located in the same city: " + sameCity + " // (operation: comparison)");
 	}
