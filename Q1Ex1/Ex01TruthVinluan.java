@@ -1,5 +1,3 @@
-package LabEx1;
-
 public class Ex01TruthVinluan {
 	String name;
 	int wins;
