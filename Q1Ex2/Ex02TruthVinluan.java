@@ -1,3 +1,5 @@
+package LabEx2;
+
 import java.util.Scanner;
 
 public class Ex02TruthVinluan {
@@ -26,7 +28,8 @@ public class Ex02TruthVinluan {
                             if (guess == random) {
                                 System.out.println("You got it right!\nWill you play again?");
                                 willPlayAgain = sc.nextLine();
-                                if (willPlayAgain.equals("n")) break;
+                                if (willPlayAgain.equals("y")) guessesRemaining = guessesSetting;
+                                else break;
                             } else {
                                 guessesRemaining -= 1;
                                 if (guessesRemaining == 0) {
