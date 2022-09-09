@@ -1,5 +1,3 @@
-package LabEx2;
-
 import java.util.Scanner;
 
 public class Ex02TruthVinluan {
