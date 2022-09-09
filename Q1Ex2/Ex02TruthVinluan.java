@@ -50,7 +50,7 @@ public class Ex02TruthVinluan {
                     maxValue = Integer.parseInt(sc.nextLine());
                     System.out.println("What is the lowest possible random number?");
                     minValue = Integer.parseInt(sc.nextLine());
-                    while (!(minValue > maxValue)) {
+                    while (minValue > maxValue) {
                         System.out.println("The minimum value is greater than or equal to the maximum value. What is the lowest possible random number?");
                         minValue = Integer.parseInt(sc.nextLine());
                     }
