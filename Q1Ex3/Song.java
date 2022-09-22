@@ -10,7 +10,7 @@ public class Song {
         this.copiesSold = copiesSold;
         this.yearOfRelease = yearOfRelease;
     }
-
+    
     // if no arguments are given
     public Song() {
         title = "Single Ladies (Put a Ring on It)";

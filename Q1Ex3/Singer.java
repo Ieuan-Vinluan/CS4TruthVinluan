@@ -20,11 +20,11 @@ public class Singer {
     }
 
     public void performForAudience(int audience) {
-        noOfPerformances += 1;
-        earnings += 100 * audience;
+        noOfPerformances += 1; // increase number of performances by 1
+        earnings += 100 * audience; // increase earnings by 100 for each person
     }
 
     public void changeFavSong(Song song) {
-        favoriteSong = song;
+        favoriteSong = song; // change favorite song
     }
 }
