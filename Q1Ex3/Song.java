@@ -11,14 +11,16 @@ public class Song {
         this.yearOfRelease = yearOfRelease;
     }
 
+    // if no arguments are given
     public Song() {
-        title = "Single Ladies";
+        title = "Single Ladies (Put a Ring on It)";
         artist = "Beyonce";
         copiesSold = 6100000;
+        yearOfRelease = 2008;
     }
 
     public void describeSong() {
-        System.out.printf("\n\"%s\" is a song by %s, released in %d. It has sold around %d copies.", title, artist, yearOfRelease, copiesSold);
+        System.out.printf("\n\"%s\" is a song by %s. It was released in %d and has sold around %d copies.", title, artist, yearOfRelease, copiesSold);
     }
 
     public void compareCopiesSold(Song anotherSong) {
