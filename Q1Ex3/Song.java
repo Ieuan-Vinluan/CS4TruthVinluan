@@ -37,7 +37,7 @@ public class Song {
         else System.out.printf("\n\"%s\" was released later than \"%s.\"", anotherSong.title, title);
     }
     
-    public void togglePlaying(boolean isPlaying) {
+    public void togglePlaying() {
         isPlaying = !isPlaying;
         if (isPlaying) System.out.printf("\n%s is now playing.", title);
         else System.out.printf("\n%s is now stopped.", title);
