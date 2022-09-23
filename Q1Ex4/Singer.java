@@ -18,7 +18,7 @@ public class Singer {
         name = "Taylor Swift";
         noOfPerformances = 218;
         earnings = 23800000;
-        favoriteSong = new Song("Lover", "Taylor Swift", 3200000, 2019);
+        favoriteSong = new Song("Lover", "Taylor Swift", "flop", 3200000, 2019);
     }
 
     public String getName() {
