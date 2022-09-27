@@ -21,6 +21,7 @@ public class Song {
         artist = "Beyonce";
         copiesSold = 6100000;
         yearOfRelease = 2008;
+        isPlaying = false;
     }
 
     public void describeSong() {
