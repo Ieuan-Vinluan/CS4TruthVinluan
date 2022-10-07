@@ -1,4 +1,5 @@
-//import java.util.*
+package StoreSimulator;
+
 import java.util.*;
 
 public class Item {

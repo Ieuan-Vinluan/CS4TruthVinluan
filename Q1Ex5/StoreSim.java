@@ -1,3 +1,5 @@
+package StoreSimulator;
+
 public class StoreSim {
   public static void main(String[] args) {
     // Create items
@@ -37,7 +39,6 @@ public class StoreSim {
 
     mall.filterType("food");
     mall.filterCheap(500);
-//    mall.filterType(1000);
     mall.filterExpensive(1000);
 
     mcdo.sellItem(0);
