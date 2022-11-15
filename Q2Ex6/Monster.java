@@ -3,6 +3,8 @@ package exercise06truthvinluanieuan;
 
 import java.util.ArrayList;
 
+// changes: added setter methods for maxHP, hp, atk, and def
+
 public class Monster {
     private final String name, type, strongAgainst, weakAgainst;
     private int maxHP, hp, atk, def, xp, lvl;

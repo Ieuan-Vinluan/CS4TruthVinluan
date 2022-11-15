@@ -4,10 +4,10 @@ package exercise06truthvinluanieuan;
 public class Main {
 	public static void main(String[] args) {
 		
-		// create Monsters
-		WaterType swampert = new WaterType("Seismitoad", 404, 110);
+		// create Monsters and give their stats
+		WaterType swampert = new WaterType("Fish", 404, 110);
 		FireType blaziken = new FireType("Infernape", 270, 480);
-		GrassType kartana = new GrassType("Ferrothorn", 220, 181);
+		GrassType kartana = new GrassType("Paper Airplane", 220, 181);
 		
 		// water vs fire
 		while (swampert.getHP() > 0 && blaziken.getHP() > 0) {

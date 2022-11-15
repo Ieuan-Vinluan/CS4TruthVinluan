@@ -4,19 +4,20 @@ public class GrassType extends Monster {
 
 	public GrassType(String name, int maxHP, int base) {
 		super(name, "Grass", "Water", "Fire", maxHP, base);
-		
-		/* There is no need to set the values for the atk and def values of the GrassType
-		 * becausee it has already been set in the SimpleMonster class.
-		 */
+		this.setAtk(base);
+		this.setDef(base);
 	}
 	
+	@Override
 	public void rest() {
-		this.setHp(this.getHP() + 50 / 100 * this.getMaxHP());
+		this.setHp(this.getHP() + 1 / 2 * this.getMaxHP());
+		if (this.getHP() > this.getMaxHP()) this.setHp(this.getMaxHP()); // if hp is greater than maxHP, set hp to maxHP
 	}
 	
 	@Override
 	public void special() {
 		this.setHp(this.getHP() + 20 / 100 * this.getMaxHP());
+		if (this.getHP() > this.getMaxHP()) this.setHp(this.getMaxHP()); // if hp is greater than maxHP, set hp to maxHP
 	}
 	
 }
