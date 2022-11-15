@@ -19,8 +19,8 @@ public class Main {
 		
 		System.out.println("\n");
 		// set Monsters' health back to max to prepare for future battles
-		swampert.setHp(swampert.getMaxHP());
-		blaziken.setHp(blaziken.getMaxHP());
+		swampert.hp = swampert.getMaxHP();
+		blaziken.hp = blaziken.getMaxHP();
 		
 		// fire vs grass
 		while (blaziken.getHP() > 0 && kartana.getHP() > 0) {
@@ -32,8 +32,8 @@ public class Main {
 		
 		System.out.println("\n");
 		// set Monsters' health back to max to prepare for future battles
-		blaziken.setHp(blaziken.getMaxHP());
-		kartana.setHp(kartana.getMaxHP());
+		blaziken.hp = blaziken.getMaxHP();
+		kartana.hp = kartana.getMaxHP();
 		
 		// grass vs water
 		while (kartana.getHP() > 0 && swampert.getHP() > 0) {
